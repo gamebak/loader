@@ -26,3 +26,13 @@ npm run server;
 # Custom CSS for our widget that is imported
 - http://localhost:8080/public/loader.css
 ```
+
+## How to install the loader in any page
+```javascript
+/**
+ * data-search - id of the search button from the main page
+ * data-result - the textarea where the results will be added
+*/
+<script type="text/javascript" src="http://localhost:8080/public/loader.js" data-search="btnSearch" data-result="result"
+  id="searchLoader"></script>
+```

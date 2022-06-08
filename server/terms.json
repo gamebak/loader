@@ -1,0 +1,122 @@
+{
+  "terms": [
+    {
+      "name": "Term 1",
+      "value": 100
+    },
+    {
+      "name": "Term 2",
+      "value": 80,
+      "terms": [
+        {
+          "name": "Term 2.1",
+          "value": 250
+        },
+        {
+          "name": "Term 2.2",
+          "value": 300
+        },
+        {
+          "name": "Term 2.3",
+          "value": 300,
+          "terms": [
+            {
+              "name": "Term 2.3.1",
+              "value": 310
+            },
+            {
+              "name": "Term 2.3.2",
+              "value": 308
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Term 3",
+      "value": 107
+    },
+    {
+      "name": "Term 4",
+      "value": 189,
+      "terms": [
+        {
+          "name": "Term 4.1",
+          "value": 92
+        },
+        {
+          "name": "Term 4.2",
+          "value": 19
+        }
+      ]
+    },
+    {
+      "name": "Term 5",
+      "value": 7,
+      "terms": [
+        {
+          "name": "Term 5.1",
+          "value": 187
+        },
+        {
+          "name": "Term 5.2",
+          "value": 12,
+          "terms": [
+            {
+              "name": "Term 5.2.1",
+              "value": 90
+            },
+            {
+              "name": "Duplicate term",
+              "value": 90
+            },
+            {
+              "name": "Term 5.2.2",
+              "value": 128,
+              "terms": [
+                {
+                  "name": "Term 5.2.2.1",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Term 5 bis",
+      "value": 7,
+      "terms": [
+        {
+          "name": "Term 5.1",
+          "value": 90
+        },
+        {
+          "name": "Term 5.2",
+          "value": 112,
+          "terms": [
+            {
+              "name": "Term 5.2.1",
+              "value": 910
+            },
+            {
+              "name": "Duplicate term",
+              "value": 910
+            },
+            {
+              "name": "Term 5.2.2",
+              "value": 12,
+              "terms": [
+                {
+                  "name": "Term 5.2.2.1",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

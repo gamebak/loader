@@ -1,0 +1,85 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modalContent {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 30%;
+  border-radius: 0.5rem;
+}
+
+.closeBtn {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  /* margin-top: 0.5rem; */
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.sendBtn {
+  font-size: 1.1rem;
+  float: right;
+  /* text-align: center; */
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  /* background-color: lightgray; */
+}
+
+.closeBtn:hover {
+  background-color: darkgray;
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.searchInput {
+  border: 1px solid #2a58ad;
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+.treeLeaf {
+  text-indent: 1%
+}
+.treeLeafLevel {
+  color: #2a58ad;
+}
+.treeView {
+  font-size: 1.2rem;
+  border: 1px solid #2a58ad;
+  min-width: 2em;
+  visibility: hidden;
+  /* right: 50%; */
+  width: 90%;
+}
+
+.show-tree {
+  visibility: visible;
+}
+/* @media screen and (max-width: windowSize) {
+  .modalContent{
+      width: 70%;
+      height: 70%
+  }
+} */
